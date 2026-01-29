@@ -17,7 +17,7 @@
     "react-pdf": "^7.7.0",
     "@react-pdf-viewer/core": "^3.12.0",
     "@react-pdf-viewer/default-layout": "^3.12.0",
-    "pdfjs-dist": "^3.11.174",
+    "pdfjs-dist": "^4.2.67",
     "zustand": "^4.4.7",
     "lucide-react": "^0.303.0",
     "clsx": "^2.1.0",
