@@ -248,6 +248,16 @@ Guides the AI to identify and annotate:
 3. **Rate Limiting**: Implement rate limiting for production deployments
 4. **Input Validation**: All inputs are validated before processing
 5. **Error Handling**: Comprehensive error handling throughout the stack
+6. **Dependency Security**: All dependencies updated to patched versions (see SECURITY.md)
+
+### Security Updates
+
+All known vulnerabilities have been patched:
+- ✅ FastAPI 0.109.1 (fixes ReDoS)
+- ✅ python-multipart 0.0.22 (fixes file write, DoS, ReDoS)
+- ✅ pdfjs-dist 4.2.67 (fixes arbitrary JS execution)
+
+See [SECURITY.md](SECURITY.md) for details on security updates and monitoring.
 
 ## Deployment
 
